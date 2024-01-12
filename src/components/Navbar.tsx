@@ -13,13 +13,13 @@ export default function Navbar() {
           <Link spy={true} smooth={true} offset={50} duration={500} to="hero" className=" font-semibold leading-6 hover:text-gray-500 text-white no-underline hover:cursor-pointer">
             Home
           </Link>
-          <Link spy={true} smooth={true} offset={50} duration={500} to="about" className=" font-semibold leading-6 text-white no-underline hover:text-gray-400 hover:cursor-pointer">
+          <Link spy={true} smooth={true} offset={-50} duration={500} to="about" className=" font-semibold leading-6 text-white no-underline hover:text-gray-400 hover:cursor-pointer">
             About Me
           </Link>
-          <Link spy={true} smooth={true} offset={50} duration={500} to="skills" className=" font-semibold leading-6 hover:cursor-pointer text-white no-underline hover:text-gray-400">
+          <Link spy={true} smooth={true} offset={-50} duration={500} to="skills" className=" font-semibold leading-6 hover:cursor-pointer text-white no-underline hover:text-gray-400">
             Skills
           </Link>
-          <Link spy={true} smooth={true} offset={15} duration={500} to="projects" className=" hover:cursor-pointer font-semibold leading-6 hover:text-gray-400 text-white no-underline">
+          <Link spy={true} smooth={true} offset={-50} duration={500} to="projects" className=" hover:cursor-pointer font-semibold leading-6 hover:text-gray-400 text-white no-underline">
             Projects
           </Link>
           <Link spy={true} smooth={true} offset={15} duration={500} to="contact" className=" font-semibold hover:cursor-pointer leading-6 hover:text-gray-400 text-white no-underline">
@@ -57,31 +57,31 @@ export default function Navbar() {
               <div className="space-y-2 py-6 text-white ">
               <Link
                   to='hero' spy={true} smooth={true} offset={50} duration={500}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:text-gray-500"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:cursor-pointer hover:text-gray-500"
                 >
                   Home
                 </Link>
                 <Link
                   to='about' spy={true} smooth={true} offset={50} duration={500}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:text-gray-500"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 cursor-pointer hover:text-gray-500"
                 >
                   About
                 </Link>
                 <Link
                   to='skills' spy={true} smooth={true} offset={50} duration={500}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:text-gray-500"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 cursor-pointer hover:text-gray-500"
                 >
                   Skills
                 </Link>
                 <Link
                   to='projects' spy={true} smooth={true} offset={50} duration={500}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:text-gray-500"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:cursor-pointer hover:text-gray-500"
                 >
                   Projects
                 </Link>
                 <Link
                   to='contact' spy={true} smooth={true} offset={50} duration={500}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:text-gray-500"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:cursor-pointer hover:text-gray-500"
                 >
                   Contact Me
                 </Link>

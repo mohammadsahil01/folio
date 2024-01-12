@@ -49,7 +49,7 @@ const Home = () => {
                 </a>
                 </div>
                 <div className="pt-8">
-                    <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>
+                    <Link to="projects" spy={true} smooth={true} offset={-50} duration={500}>
                 <button className="hover:bg-white hover:text-[#141424] bg:rgb(20,20,36) text-xl text-white border border-white p-2 px-6 rounded-sm font-semibold">View Work</button>
                 </Link>
                 </div>

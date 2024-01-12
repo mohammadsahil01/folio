@@ -7,7 +7,8 @@ const About = () => {
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-1 gap-5 text-white">
         <div className="col-span-1 text-3xl font-semibold lg:text-5xl text-white">
-        Welcome to my digital abode! I'm Sahil Mohammad, a passionate full-stack developer weaving intricate web solutions.
+       <span>Welcome to my digital abode!</span><br />
+         I'm Sahil Mohammad, a passionate full-stack developer weaving intricate web solutions.
         </div>
         <div className="col-span-1 text-md lg:text-xl text-gray-300">
         "Deeply passionate about software engineering and problem-solving, I've delved into the intricacies of the MERN stack. I thrive on the challenges of full-stack development. Constantly upskilling, I stay at the forefront of the latest technologies, ensuring my work remains innovative and impactful."
