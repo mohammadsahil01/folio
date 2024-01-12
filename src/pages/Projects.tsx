@@ -4,6 +4,8 @@ import youtube from "./../assets/youtube.png";
 import ecom from "./../assets/Ecom.png";
 import blazeAI from "./../assets/BlazeAI.png";
 import graphQL from "./../assets/Safeimagekit-resized-img.png";
+
+
 const Projects = () => {
   return (
     <div className="text-white mt-20" id="projects">
