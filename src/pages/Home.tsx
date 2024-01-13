@@ -35,7 +35,9 @@ const Home = () => {
                     
                 </div>
                 <div className="py-3">
+                <a href="https://docs.google.com/document/d/1xl51GxzxrdUpPOzQBBuSL1ABt0XtykLD6D3lZB9GKMQ/edit?usp=sharing">
                 <button className="hover:bg-white hover:text-[#141424] bg:rgb(20,20,36) text-xl text-white border border-white p-2 px-6 rounded-sm font-semibold">Resume</button>
+                </a>
                 </div>
                 <div className="pt-5 flex gap-5">
                 <a href="https://github.com/mohammadsahil01">
