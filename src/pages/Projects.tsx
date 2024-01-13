@@ -126,7 +126,7 @@ export const carouselItems: Item[] = [
     Img: graphQL,
     Name: 'Backend with GraphQL',
     Code_link: 'https://github.com/mohammadsahil01/GraqphQL_backend',
-    Demo_link:"a"
+    Demo_link:"/"
   },
 ];
 
