@@ -2,11 +2,14 @@
 
 import './App.css'
 import Home from './pages/Home';
-import Projects from './pages/Projects';
+import  { carouselItems } from './pages/Projects';
 import About from './pages/About';
 import MySkills from './pages/MySkills';
 import Navbar from './components/Navbar';
 import Contact from './pages/Contact';
+import Carousel from './pages/test';
+
+
 
 
 
@@ -47,7 +50,7 @@ function App() {
       <Home/>
       <About/>
       <MySkills/>
-      <Projects/>
+      <Carousel data={carouselItems}/>
       <Contact/>
     </div>
     </>

@@ -4,6 +4,7 @@ import youtube from "./../assets/youtube.png";
 import ecom from "./../assets/Ecom.png";
 import blazeAI from "./../assets/BlazeAI.png";
 import graphQL from "./../assets/Safeimagekit-resized-img.png";
+import { Item } from "./test";
 
 
 const Projects = () => {
@@ -99,3 +100,34 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
+
+export const carouselItems: Item[] = [
+  {
+    Img: youtube,
+    Name: 'Youtube Clone',
+    Code_link: 'https://github.com/mohammadsahil01/ecom',
+    Demo_link: 'https://youtube-clone-rouge-eight.vercel.app/',
+  },
+  {
+    Img: ecom,
+    Name: 'Ecommerce Platform',
+    Code_link: 'https://github.com/mohammadsahil01/ecom',
+    Demo_link: 'http://mern-ecomm-phi.vercel.app/',
+  },
+  {
+    Img: blazeAI,
+    Name: 'Blaze AI',
+    Code_link: 'https://github.com/mohammadsahil01/blaze-ai',
+    Demo_link: 'https://blaze-ai.vercel.app/',
+  },
+  {
+    Img: graphQL,
+    Name: 'Backend with GraphQL',
+    Code_link: 'https://github.com/mohammadsahil01/GraqphQL_backend',
+    Demo_link:"a"
+  },
+];
+
+
